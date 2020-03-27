@@ -13,7 +13,6 @@ private:
     multimap < pair <int, int>, char> transitions;
     int nrWords;
     string word;
-    bool visited[100][100];
 
 public:
     Automata()
