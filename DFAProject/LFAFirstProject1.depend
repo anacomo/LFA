@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585350715 source:d:\cppprojects\lfafirstproject1\main.cpp
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
