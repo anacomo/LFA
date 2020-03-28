@@ -30,12 +30,9 @@ Automata::Automata(){
     char letter;
     vector<map<char, vector<int>>>::iterator itr;
     for(int i = 0; i < nrTransitions; ++i)
-    //for(itr = transitions.begin(); itr != transitions.end(); ++itr)
         {in >> source >> destination >> letter;
         transitions[source][letter].push_back(destination);
         }
-    ///for(i = 0; i < nrTransitions; i++)
-    //incerc sa fac o afisare ceva
     // Initial State
     in >> initialState;
     cout << "Initial state: " << initialState << '\n';
