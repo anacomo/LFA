@@ -32,11 +32,7 @@ Automata::Automata(){
     for(int i = 0; i < nrTransitions; ++i)
     //for(itr = transitions.begin(); itr != transitions.end(); ++itr)
         {in >> source >> destination >> letter;
-        //transitions[i].first = letter;
-        //transitions[i].second.push_back(destination);
-        //NU PRICEP DE CE DA CRASH
         transitions[source][letter].push_back(destination);
-        //transitions.push_back({source, destination, letter})
         }
     ///for(i = 0; i < nrTransitions; i++)
     //incerc sa fac o afisare ceva
